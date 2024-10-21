@@ -1,0 +1,79 @@
+:root {
+
+    /* font sizes  */
+    --fs-very-small: 11px;
+    --fs-small: 13px;
+    --fs-medium: 16px;
+    --fs-large: 19px;
+    --fs-xl: 39px;
+    --fs-xxl: 57px;
+
+    /* colors */
+    --primary-color: #3A0CA3;
+    --text-color: #2B2B2B;
+    --secondary-color: #4361EE;
+    --secondary-text-color: #808080;
+}
+
+@media(max-width:992px) {
+    :root {
+
+        /* font sizes  */
+        --fs-very-small: 11px;
+        --fs-small: 13px;
+        --fs-medium: 16px;
+        --fs-large: 19px;
+        --fs-xl: 27px;
+        --fs-xxl: 39px;
+
+        /* colors */
+        --primary-color: #3A0CA3;
+        --text-color: #2B2B2B;
+        --secondary-color: #4361EE;
+        --secondary-text-color: #808080;
+    }
+}
+
+/* css classes for root  */
+
+.fs-very-small {
+    font-size: var(--fs-very-small);
+}
+
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-medium {
+    font-size: var(--fs-medium);
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+/* colors */
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.secondary-text-color {
+    color: var(--secondary-text-color);
+}
